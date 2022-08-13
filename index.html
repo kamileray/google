@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css" integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Google</title>
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <div class="header">
+        <div class="content-header">
+            <a class="gmail" href="#">Gmail</a>
+            <a class="gorseller" href="#">Görseller</a>
+            <a class="logo" href="#">
+                <img class="logo-inside"
+                src="https://lh3.googleusercontent.com/ogw/AOh-ky0pFThpXh3UNRyX29ttXKigPsKz8n7Dg6GbvX9aBA=s32-c-mo"
+                alt="Logo">
+            </a>
+        </div>
+    </div>
+
+    <!-- Logo Section -->
+    <div class="logo-content">
+        <div class="logo-icerik">
+            <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
+            alt="Google logo" height="92" width="272">
+        </div>
+    </div>
+
+    <!-- Search Content Section -->
+    <div class="search-content">
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="search" type="text" maxlength="65">
+        </div>
+        <div class="buttons">
+            <button id="button1">Google'da Ara</button>
+            <button id="button2">Kendimi Şanslı Hissetmiyorum</button>
+        </div>
+    </div>
+    
+
+    <!-- Footer --> 
+    <div class="footer">
+        <div class="footer-left-item">
+            <span class="footer-item">Türkiye</span>
+            <span class="footer-item" id="ayrac">-</span>
+            <span class="footer-item">Hakkında</span>
+            <span class="footer-item">Reklam</span>
+            <span class="footer-item">İşletme</span>
+            <span class="footer-item">Arama nasıl çalışır?</span>
+        </div>
+        <div class="footer-right-item">
+            <span class="footer-item-reverse">Gizlilik</span>
+            <span class="footer-item-reverse">Şartlar</span>
+            <span class="footer-item-reverse">Ayarlar</span>
+        </div>
+
+        
+    </div>
+    <script>
+        if (screen.width < 1024) {
+            alert("Üzgünüm ekran ölçüleriniz bu sayfayı çalıştırmak için uygun değil");
+            window.close();
+        }else{
+            console.log("Sayfa responsive uyumlu değildir.")
+        }
+    </script>
+
+    
+</body>
+</html>
